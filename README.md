@@ -15,15 +15,20 @@ pip install -r requirements.txt
 ````
 
 ## Reproducing results
-To reproduce our experiments result, set up corresponding parameters and run file `./runs/run_fpdgd_non_iid_linear.py`
+To reproduce our experiments result, set up corresponding parameters and run files: `./runs/run_fpdgd_non_iid_linear.py` `./runs/run_fpdgd_non_iid_neural.py`
 ```
 python run_fpdgd_non_iid_linear.py
 ```
-or
 ```
-sh run_fpdgd_non_iid_linear.sh
+python run_fpdgd_non_iid_neural.py
 ```
-
+or run files: `./scripts/run_fpdgd_noniid_linear.sh` `./scripts/run_fpdgd_noniid_neural.sh`
+```
+sh run_fpdgd_noniid_linear.sh
+```
+```
+sh run_fpdgd_noniid_neural.sh
+```
 
 ## Citation
 If you find this code or the ideas in the paper useful in your research, please consider citing the paper:
